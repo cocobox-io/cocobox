@@ -1,13 +1,39 @@
-# Cocobox
+<p align="center">
+  <img src=".github/assets/logo.png" width="96" height="96" alt="Cocobox logo">
+</p>
 
-Cocobox runs your coding agents (Claude Code, GitHub Copilot, Codex and more) side by side, each on its own branch, with guardrails on your databases.
+<h1 align="center">Cocobox</h1>
 
-Free to use, including commercially. The source is closed; this repository holds the releases and the issue tracker.
+<p align="center">
+  Run your coding agents side by side, each on its own branch, with guardrails on your databases.
+</p>
+
+<p align="center">
+  <a href="https://releases.cocobox.io/Cocobox.dmg"><strong>Download for Mac</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://cocobox.io/docs">Docs</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/cocobox-io/cocobox/releases">Releases</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/cocobox-io/cocobox/issues/new/choose">Report an issue</a>
+  &nbsp;·&nbsp;
+  <a href="https://cocobox.io">Website</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/cocobox-io/cocobox/releases/latest"><img src="https://img.shields.io/github/v/release/cocobox-io/cocobox?label=latest&color=69d9cd&labelColor=182220" alt="Latest release"></a>
+</p>
+
+Cocobox works with Claude Code, GitHub Copilot, Codex and more. It is free to use, including commercially. The source is closed; this repository holds the releases and the issue tracker.
 
 ## Download
 
-- **Mac (Apple silicon):** [Download the latest Cocobox](https://releases.cocobox.io/Cocobox.dmg), signed and notarized. The app updates itself.
+- **Mac (Apple silicon):** [download the latest Cocobox](https://releases.cocobox.io/Cocobox.dmg), signed and notarized. The app updates itself.
 - **A specific version:** every version, with what changed, is under [Releases](https://github.com/cocobox-io/cocobox/releases).
+
+## Docs
+
+Start with [Getting started](https://cocobox.io/docs/getting-started/), or browse [all the docs](https://cocobox.io/docs).
 
 ## Report a bug or ask for a feature
 

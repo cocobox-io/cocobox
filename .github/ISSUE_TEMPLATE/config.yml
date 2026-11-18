@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Documentation
+    url: https://cocobox.io/docs
+    about: Guides for setting up and using Cocobox.
   - name: Security problem
     url: https://github.com/cocobox-io/cocobox/security/advisories/new
     about: Report it privately, not as a public issue.
