@@ -11,7 +11,7 @@ Free to use, including commercially. The source is closed; this repository holds
 
 ## Report a bug or ask for a feature
 
-[Open an issue](https://github.com/cocobox-io/cocobox/issues/new/choose). Search the existing ones first, and include your Cocobox version (Settings › About).
+[Open an issue](https://github.com/cocobox-io/cocobox/issues/new/choose). Search the existing ones first, and include your Cocobox version (Settings › Privacy & updates).
 
 Found a security problem? Don't open a public issue: [report it privately](https://github.com/cocobox-io/cocobox/security/advisories/new).
 

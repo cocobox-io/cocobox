@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: Cocobox version
-      description: Settings › About
+      description: Settings › Privacy & updates
       placeholder: "0.10.4"
     validations:
       required: true
