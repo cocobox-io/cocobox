@@ -1,0 +1,40 @@
+name: Publish release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version, like 0.11.1
+        required: true
+      title:
+        description: Release title
+        required: true
+      notes:
+        description: Release notes in Markdown
+        required: true
+      latest:
+        description: Mark as the latest release
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish the signed DMG
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          VERSION: ${{ inputs.version }}
+          TITLE: ${{ inputs.title }}
+          NOTES: ${{ inputs.notes }}
+          LATEST: ${{ inputs.latest }}
+        run: |
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          DMG="Cocobox_${VERSION}_aarch64.dmg"
+          curl -fsSL -A github-release -o "$DMG" "https://releases.cocobox.io/darwin-aarch64/$DMG"
+          printf '%s\n' "$NOTES" > notes.md
+          gh release create "v$VERSION" "$DMG" --target main --title "$TITLE" --notes-file notes.md --latest="$LATEST"
