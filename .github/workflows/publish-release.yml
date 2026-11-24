@@ -36,5 +36,10 @@ jobs:
           [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
           DMG="Cocobox_${VERSION}_aarch64.dmg"
           curl -fsSL -A github-release -o "$DMG" "https://releases.cocobox.io/darwin-aarch64/$DMG"
+          FILES=("$DMG")
+          # Linux, when this version shipped one.
+          for F in "Cocobox_${VERSION}_amd64.AppImage" "Cocobox_${VERSION}_amd64.deb"; do
+            curl -fsSL -A github-release -o "$F" "https://releases.cocobox.io/linux-x86_64/$F" && FILES+=("$F") || rm -f "$F"
+          done
           printf '%s\n' "$NOTES" > notes.md
-          gh release create "v$VERSION" "$DMG" --target main --title "$TITLE" --notes-file notes.md --latest="$LATEST"
+          gh release create "v$VERSION" "${FILES[@]}" --target main --title "$TITLE" --notes-file notes.md --latest="$LATEST"
