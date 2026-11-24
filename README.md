@@ -24,6 +24,10 @@
   <a href="https://github.com/cocobox-io/cocobox/releases/latest"><img src="https://img.shields.io/github/v/release/cocobox-io/cocobox?label=latest&color=69d9cd&labelColor=182220" alt="Latest release"></a>
 </p>
 
+<p align="center">
+  <a href="https://cocobox.io"><img src=".github/assets/screenshot.webp" alt="Cocobox: agent tabs in the sidebar, a chat with an agent's changes, and the Ship panel"></a>
+</p>
+
 Cocobox works with Claude Code, GitHub Copilot, Codex and more. It is free to use, including commercially. The source is closed; this repository holds the releases and the issue tracker.
 
 ## Download
