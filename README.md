@@ -11,6 +11,8 @@
 <p align="center">
   <a href="https://releases.cocobox.io/Cocobox.dmg"><strong>Download for Mac</strong></a>
   &nbsp;·&nbsp;
+  <a href="https://releases.cocobox.io/Cocobox.AppImage"><strong>Linux</strong></a>
+  &nbsp;·&nbsp;
   <a href="https://cocobox.io/docs">Docs</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/cocobox-io/cocobox/releases">Releases</a>
@@ -33,6 +35,7 @@ Cocobox works with Claude Code, GitHub Copilot, Codex and more. It is free to us
 ## Download
 
 - **Mac (Apple silicon):** [download the latest Cocobox](https://releases.cocobox.io/Cocobox.dmg), signed and notarized. The app updates itself.
+- **Linux (x86_64):** the [AppImage](https://releases.cocobox.io/Cocobox.AppImage) runs on most distributions and updates itself; the [.deb](https://releases.cocobox.io/Cocobox.deb) installs on Ubuntu and Debian.
 - **A specific version:** every version, with what changed, is under [Releases](https://github.com/cocobox-io/cocobox/releases).
 
 ## Docs
