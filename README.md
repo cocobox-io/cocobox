@@ -32,6 +32,15 @@
 
 Cocobox works with Claude Code, GitHub Copilot, Codex and more. It is free to use, including commercially. The source is closed; this repository holds the releases and the issue tracker.
 
+## About
+
+We're a small team: a developer, a vibe coder and an architect who does the 3D side. We got tired of the same plain, boring tools, so we built one that's more fun and more personal: your agents get an office, a team and a bit of character.
+
+- **Free, for real.** The whole app and every tool in it are free, including for work.
+- **Pro pays for servers.** We only charge for what runs on our servers: reaching your desk from a phone or browser, and sync.
+- **Runs on your machine.** Without Pro, your work stays on your computer and goes only to the AI providers you choose.
+- **An office to watch.** While you work, your agents and the helpers they bring in show up in a little office, at their desks.
+
 ## Download
 
 - **Mac (Apple silicon):** [download the latest Cocobox](https://releases.cocobox.io/Cocobox.dmg), signed and notarized. The app updates itself.
